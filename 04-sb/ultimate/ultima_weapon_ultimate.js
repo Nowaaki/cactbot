@@ -310,8 +310,8 @@ Options.Triggers.push({
           return;
         return output.text({
           player1: data.ShortName(data.titanGaols[0]),
-          player2: data.ShortName(data.titanGaols[0]),
-          player3: data.ShortName(data.titanGaols[0]),
+          player2: data.ShortName(data.titanGaols[1]),
+          player3: data.ShortName(data.titanGaols[2]),
         });
       },
       outputStrings: {
