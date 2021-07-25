@@ -13,7 +13,7 @@ Options.Triggers.push({
       id: 'UWU Feather Rain',
       regex: /Feather Rain/,
       beforeSeconds: 3,
-      infoText: (_data, _matches, output) => output.text(),
+    //  infoText: (_data, _matches, output) => output.text(),
       outputStrings: {
         text: {
           en: 'Move!',
