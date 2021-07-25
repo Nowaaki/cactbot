@@ -289,7 +289,7 @@ Options.Triggers.push({
       netRegexJa: NetRegexes.ability({ id: ['2B6C', '2B6B'], source: ['ガルーダ', 'タイタン'] }),
       netRegexCn: NetRegexes.ability({ id: ['2B6C', '2B6B'], source: ['迦楼罗', '泰坦'] }),
       netRegexKo: NetRegexes.ability({ id: ['2B6C', '2B6B'], source: ['가루다', '타이탄'] }),
-      const priority = [ "Yaru Korsin", "Erikka Chisaka", "Althea Beowulf", "Ripquid God", "Diablo Nightmare", "Aya Flowis", "Nowaki Yoko", "Purple Purps" ]
+      const priority = [ "Yaru Korsin", "Erikka Chisaka", "Althea Beowulf", "Ripquid God", "Diablo Nightmare", "Aya Flowis", "Nowaki Yoko", "Purple Purps" ];
       preRun: (data, matches) => {
         data.titanGaols ?? (data.titanGaols = []);
         data.titanGaols.push(matches.target);
